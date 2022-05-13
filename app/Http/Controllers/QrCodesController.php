@@ -145,10 +145,10 @@ class QrCodesController extends Controller
 
 
         // SAVE PDF INTO STORAGE/PRIVATE
-       // $request->file('file_pdf')->storeAs('private', $fileName);
+       $request->file('file_pdf')->storeAs('private', $fileName);
 
         //DELETE PNG FILE
-       // unlink('image.png');
+        unlink('image.png');
 
         return back()
             ->with('success','You have successfully upload qrCorde.')
