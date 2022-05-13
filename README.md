@@ -1,8 +1,8 @@
 Laravel App for Decode QR Code in pdf files using APIs
 
 ## Login
-username: neil@test.com
-password: password
+-username: neil@test.com <br>
+-password: password
 
 ## License
 
